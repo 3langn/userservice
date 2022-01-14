@@ -24,7 +24,7 @@ import java.util.List;
  * @since 7/10/2021
  */
 @Service @RequiredArgsConstructor @Transactional @Slf4j
-public class UserServiceImpl implements UserService, UserDetailsService {
+public class  UserServiceImpl implements UserService, UserDetailsService {
     private final UserRepo userRepo;
     private final RoleRepo roleRepo;
     private final PasswordEncoder passwordEncoder;
